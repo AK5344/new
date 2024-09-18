@@ -1,60 +1,141 @@
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Daily</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        article {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background: #fff;
+        }
+        article h3 {
+            margin: 0 0 10px;
+        }
+        article a {
+            text-decoration: none;
+            color: blue;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>News Daily</h1>
+        <nav>
+            <ul>
+                <li><a href="#top-stories">Top Stories</a></li>
+                <li><a href="#world-news">World News</a></li>
+                <li><a href="#technology">Technology</a></li>
+                <li><a href="#sports">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="top-stories">
+            <h2>Top Stories</h2>
+            <article>
+                <h3>Breaking News: Major Event Unfolds</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac urna eu felis dapibus condimentum.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>New Developments in Technology</h3>
+                <p>Sed non mauris vitae erat consequat auctor eu in elit.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
+        <section id="world-news">
+            <h2>World News</h2>
+            <article>
+                <h3>Global Leaders Meet for Climate Change</h3>
+                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Economic Trends in 2023</h3>
+                <p>Maecenas fermentum consequat mi. Donec fermentum.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
+        <section id="technology">
+            <h2>Technology</h2>
+            <article>
+                <h3>Latest Gadgets of 2023</h3>
+                <p>Praesent libero. Sed cursus ante dapibus diam.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>AI: The Future is Here</h3>
+                <p>Suspendisse potenti. In faucibus massa at posuere.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
+        <section id="sports">
+            <h2>Sports</h2>
+            <article>
+                <h3>Championship Highlights</h3>
+                <p>Integer in mauris eu nibh euismod gravida.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article>
+                <h3>Player Transfers and Rumors</h3>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+    </main>
 
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
-}
-
-article {
-    margin: 20px 0;
-}
-
-article h3 {
-    margin: 0;
-}
-
-article a {
-    text-decoration: none;
-    color: blue;
-}
-
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+    <footer>
+        <p>&copy; 2023 News Daily. All rights reserved.</p>
+    </footer>
+</body>
+</html>
